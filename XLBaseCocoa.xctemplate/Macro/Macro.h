@@ -129,6 +129,8 @@
 
 #define kClearColor [UIColor clearColor]
 
+// 随机色
+#define RandomColor RGBCOLOR(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
 
 #define COLOR_BLUE_             UIColorFromRGB(0x41CEF2)
 #define COLOR_GRAY_             UIColorFromRGB(0xababab) //171
